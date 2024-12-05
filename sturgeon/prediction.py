@@ -163,6 +163,9 @@ def predict_sample(
         else:
             calibrated_scores[i, :]  = np.exp(softmax(scores[i, :]))
 
+    if(set(decoding_dict.keys()) == set({'family', 'type'})):
+        decoding_dict = decoding_dict['type']
+
     calibrated_df = dict()
     for k, v in decoding_dict.items():
         calibrated_df[v] = calibrated_scores[:, int(k)]
