@@ -31,6 +31,7 @@ def validate_model_file(zip_file: str):
 
     for mf in mandatory_files:
         if mf not in files_in_zip:
+            print(mf, flush=True)
             err_msg = 'Mandatory file: {mf}, not found in {zf}'.format(
                 mf = mf,
                 zf = zip_file,
@@ -48,7 +49,7 @@ def validate_model_file(zip_file: str):
     for nmf, err in non_mandatory_files.items():
         if nmf not in files_in_zip:
             wrn_msg = 'Mandatory file: {mf}, not found in {zf}: {err}'.format(
-                mf = mf,
+                mf = nmf,
                 zf = zip_file,
                 err = err,
             )
