@@ -67,6 +67,16 @@ def model_forward(
     inference_session: onnxruntime.InferenceSession
 ) -> np.ndarray:
 
+    onnx_to_numpy_type = {
+        "tensor(float)": np.float32,
+        "tensor(double)": np.float64,
+        "tensor(int64)": np.int64,
+        "tensor(int32)": np.int32,
+        "tensor(int8)": np.int8,
+        "tensor(uint8)": np.uint8,
+    }
+
+    x = x.astype(onnx_to_numpy_type[inference_session.get_inputs()[0].type])
 
     # compute ONNX Runtime output prediction
     x = onnxruntime.OrtValue.ortvalue_from_numpy(x)
