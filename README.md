@@ -173,35 +173,6 @@ sturgeon inputtobed -i demo/bam/example_2.bam -o demo/bam/out_2 -s guppy
 sturgeon inputtobed -i demo/bam/example_3.bam -o demo/bam/out_3 -s guppy
 ```
 
-### Per read methylation txt files: megalodon (not recommended)
-
-Please strongly consider using [modkit](https://github.com/nanoporetech/modkit), to extract methylation calls since megalodon is deprecated by ONT.
-
-Convert a txt file that contains per read methylation calls into the adequate format (.bed) so that it can be used for prediction.
-
-To obtain the txt files you can run megalodon with the following arguments:
-```
-./megalodon YOUR_FAST5_PATH \
---outputs mods basecalls mappings \
---mappings-format bam \
---reference chm13v2.0.fa \
---write-mods-text \
---mod-motif m CG 0 \
---processes 10 \
---guppy-config res_dna_r941_prom_modbases_5mC_CpG_v001.cfg \
---devices cuda:0 \
---output-directory YOUR_OUTPUT_PATH
-```
-
-For further information on how to run megalodon please refer to their [github](https://github.com/nanoporetech/megalodon) page.
-
-Convert txt files from demo data:
-```
-sturgeon inputtobed -i demo/mega -o demo/mega/out -s megalodon
-```
-
-In `demo/mega/out` you should have some output files, the most important one is `merged_probes_methyl_calls.bed` as it is the input for the prediction tool. This input contains the aggregation of all methylation calls across ALL bam files. If each bam file is a different sample, then process them independently in different folders.
-
 ## CNS type prediction: `predict`
 
 This mode predicts a set of samples in bed file format given a set of models.
