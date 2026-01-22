@@ -120,6 +120,10 @@ The reasoning behind this is that both 5mC and 5hmC poorly react to bisulfite tr
 ```
 modkit extract OUTPUT.bam OUTPUT.txt
 ```
+or with newer versions of modkit:
+```
+modkit extract full OUTPUT.bam OUTPUT.txt
+```
 
 This `OUTPUT.txt` can then be directly used in sturgeon using:
 ```
@@ -216,34 +220,3 @@ In `demo/results` there should be a `.csv` file for each sample with the scores 
 
 Values indicate the score that the model gave to each class. Higher scores indicate higher confidence in the prediction. 
 
-## CNS type prediction while sequencing: `live`
-
-This program can be used during live basecalling. It watches over a folder and waits for bam files (output of Guppy) or txt files (output of Megalodon) to be written there. Then it processes them as they come. This program expects that all bam files in that folder come from the same sample, therefore the amount of sequencing for that sample increases over time. In this line, each bam file will not be treated independently, but instead they will be added in a cumulative manner. 
-
-Example usage with demo data (guppy bam files):
-```
-sturgeon live \
--i demo/bam \
--o demo/bam/out_live \
--s guppy \
---model-files PATH_TO_MODEL_DIR/general.zip \
---plot-results
-```
-
-Example usage with demo data (megalodon txt files):
-```
-sturgeon live \
--i demo/mega \
--o demo/mega/out_live \
--s megalodon \
---model-files PATH_TO_MODEL_DIR/general.zip \
---plot-results
-```
-
-The tool needs to be stopped manually because it will wait infinitely for new files in the target folder. In most systems CTRL+C should interrupt and exit the program.
-
-In the output folder there will be a bunch of intermediate files, the most important ones are:
-
-- `predictions_modelname.csv`: which contains the predicted scores for each CNS class. Each row contains the cumulative predicitions, so row 1 are just the predictions for the first bam file, row 2 are the predictions for the first and second bam files combined, etc.
-- `predictions_n_modelname.pdf`: these contains barplots for each of the rows in the previous described csv file.
-- `predictions_overtime_modelname.pdf`: this contains a plot that describes the change in scores over time. Only classes with an average score >0.1 over time are plotted.
