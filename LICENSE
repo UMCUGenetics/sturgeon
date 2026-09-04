@@ -1,149 +1,57 @@
-EVALUATION SOFTWARE LICENSE AGREEMENT  
-
-IMPORTANT!  
-
-1) License to use the STURGEON Software. The software to allow bioinformatic sparse methylation analysis “STURGEON” (the “Software”) you seek to use is licensed only on the condition that you ("YOU") agree with Stichting Oncode Institute, with its office at Jaarbeursplein 6, 3521 AL Utrecht, NL (“ONCODE”) and Cyclomics B.V., with its office at Science Park 301, 1098XH Amsterdam, NL (“CYCLOMICS”), to the terms and conditions set forth below. PLEASE CAREFULLY READ THE TERMS OF THIS SOFTWARE LICENSE AGREEMENT (the “Agreement”). If you do not agree to the terms of this Agreement, delete and do not use the Software.  
-
- 
-
-2) Permission for Use.  
-
-• Subject to the terms and conditions of this agreement, ONCODE and CYCLOMICS grants to YOU a non-exclusive, non-transferable, non-sublicensable right to use the Software solely for internal, non-commercial research and evaluation purposes. 
-
-• The Software and any and all documentation, knowledge, know-how and/or techniques relating to the Software, is and will remain the sole and absolute property of University Medical Centre Utrecht, with its office at Heidelberglaan 100, 3584CX Utrecht, NL (“UMCU”). ONCODE specifically retains the right to grant licenses of the Software to third parties. CYCLOMICS has acquired an exclusive license to the Software and has the right to grant sublicenses.  
-
- 
-
-3) Restrictions of Use. Subject to Article 4, YOU SHALL NOT and will NOT authorize any third party to:  
-
-• use the Software for clinical purposes, including patient care, clinical workflows, or healthcare delivery; 
-
-• use the Software for diagnosis, treatment, monitoring, prevention, or mitigation of any disease or medical condition; 
-
-• use the Software in connection with medical decision-making; 
-
-• use the Software as a medical device or as part of a regulated medical device system; 
-
-• use the Software for any commercial purpose, including providing services to third parties, commercialization, product development for commercial deployment, or incorporation into commercial products or services; 
-
-• distribute, sell, re-sell, lease, transfer, loan, assign, trade, rent, publish or otherwise transfer the Software, or any part thereof and/or copies thereof, to others for consideration, financial or otherwise;  
-
-• improve, further develop, adapt, decompile, disassemble, translate into another computer language, create derivative works, use any part of the Software to mimic data or functionality in the Software, or otherwise reverse engineer the Software without the written permission of ONCODE and Cyclomics;  
-
-• alter or delete any of the copyright notices present on, or in the Software;  
-
-• license or sublicense the use of the Software to others without the written permission of ONCODE and CYCLOMICS;  
-
-• use, without its express permission, the name of ONCODE and/or UMCU and/or CYCLOMICS, or any trademark or logo of ONCODE and/or UMCU and/or CYCLOMICS in advertising, publicity, or otherwise;  
-
-• export or re-export the Software or any copy or adaptation, whether in violation of any applicable laws or regulations or otherwise; and  
-
-• Publish results obtained through YOUR use of the Software without express permission from ONCODE and CYCLOMICS, and without referral to the original source code of the Software.  
-
- 
-
-4) The Software was developed by Dr. Jeroen de Ridder, Marc Pages and Carlo Vermeulen of the UMCU. The Software has the following dependencies, which are subject to their own open source licenses. Please review and agree to the appropriate open source license prior to using the Software: 
-
-Code  
-
-Link  
-
-OS License 
-
-NumPY  
-
-https://numpy.org/  
-
-NumPy is licensed under the BSD License. 
-
-Pandas  
-
-https://github.com/pandas dev/pandas/blob/main/LICE NSE 
-
-Pandas is licensed under the BSD License. 
-
-Matplotlib  
-
-https://github.com/matplot lib/matplotlib/blob/main/LI CENSE/LICENSE 
-
-Matplotlib is licensed under the BSD License. 
-
-PyTorch  
-
-https://github.com/pytorch /pytorch/blob/master/LICE NSE 
-
-PyTorch is licensed under the BSD License. 
-
-SciPy  
-
-https://www.scipy.org/  
-
-SciPy is licensed under the BSD License. 
-
-Onnx  
-
-https://github.com/onnx/o nnx/blob/main/LICENSE 
-
-Onnx is licensed under the Apache 2.0 License. 
-
-Scikit-learn  
-
-https://github.com/scikit learn/scikit  
-
-learn/blob/main/COPYING 
-
-Scikit-learn is licensed under the BSD License. 
-
-Python  
-
-https://www.python.org/do wnload/releases/3.4.0/licen se/ 
-
-Python is licensed under the Python software foundation license. 
-
- 
-
- 
-
-ONCODE is the exclusive valorization partner for intellectual property and knowhow developed by the lab of Dr. Jeroen de Ridder and which is owned by UMCU. If YOU are interested in using the Software for any commercial, clinical and/or diagnostic purposes, please contact  CYCLOMICS at software@cyclomics.com.  
-
- 
-
-5) Representation of Authority. YOU explicitly represent and warrant to ONCODE and CYCLOMICS that YOU possess the legal authority to enter into this Agreement, and that YOU will be financially responsible for your use of the Software. You agree to be responsible for all license fees, costs, charges and taxes arising out of your use of the Software. YOU also acknowledge that YOU are solely responsible for supplying any hardware necessary to use the Software pursuant to this Agreement.  
-
- 
-
-6) No Warranty. YOU further acknowledge and agree that the Software is experimental in nature and is provided to YOU on an “as is” basis and for academic research purposes only. ONCODE, CYCLOMICS and/or UMCU have no obligation to provide any services, modifications, upgrades, updates, or replacements relating to the Software. YOU acknowledge and agree that ONCODE, CYCLOMICS and/or UMCU make no representations and extend no warranties of any kind, either express or implied.  
-
-There are no express or implied warranties of merchantability or fitness of the Software for a particular purpose, or that the use of the Software will not infringe any patent, copyright,  
-
-trademark or other rights, or any other express or implied representations or warranties. In particular, nothing in this Agreement is or will be construed as a warranty or representation by Oncode and/or UMCU as to the validity or scope of copyright or other intellectual property rights in the Software; an obligation to furnish any other software, technology, or technological information; an obligation on ONCODE, CYCLOMICS and/or UMCU to correct malfunctions that arise in the version of the Software that YOU receive. ONCODE, CYCLOMICS AND UMCU DO NOT WARRANT THAT THE SOFTWARE IS FREE FROM MALFUNCTIONS, NOR THAT ANY MALFUNCTIONS CAN OR WILL BE CORRECTED OR THAT ONCODE, CYCLOMICS AND/OR UMCU WILL DEVELOP OR PROVIDE TO YOU ANY OPERATIONS, CAPABILITIES OR FEATURES NOT PRESENT IN THE VERSION OF THE SOFTWARE THAT YOU RECEIVE. THE PARTIES ACKNOWLEDGE THAT THIS IS A THIRD PARTY CLAUSE (IN DUTCH ‘DERDENBEDING’) WHICH CAN BE INVOKED BY UMCU DIRECTLY AGAINST YOU.  
-
- 
-
-7) LIMITATION OF LIABILITY. YOU AGREE THAT IN NO EVENT SHALL ONCODE AND/OR UMCU BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, CONSEQUENTIAL, INCIDENTAL, PUNITIVE OR SPECIAL DAMAGES WHATSOEVER, WITHOUT REGARD TO CAUSE OR THEORY OF LIABILITY, OR ANY DAMAGES (WHETHER DIRECT OR INDIRECT) INCURRED FOR LOSS OF BUSINESS, PROFITS OR REVENUE, LOSS OF PRIVACY, LOSS OF USE OF ANY DEVICE OR SOFTWARE (INCLUDING BUT NOT LIMITED TO, THE SOFTWARE), COSTS OF PROCURING SUBSTITUTE OR REPLACEMENT GOODS AND SERVICES, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION OR OTHER PECUNIARY LOSS ARISING OUT OF THIS AGREEMENT OR THE SOFTWARE PROVIDED HEREUNDER, EVEN IF ONCODE AND/OR UMCU HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. NO MEMBER OF ONCODE, UMCU, THEIR BOARD OF GOVERNORS, OFFICERS, EMPLOYEES, FACULTY, STUDENTS, STAFF OR AGENTS WILL BE LIABLE FOR ANY UNAUTHORIZED ACCESS TO, OR ANY CORRUPTION, ERASURE, THEFT, DESTRUCTION, ALTERATION, INADVERTENT DISCLOSURE OR LOSS OF DATA, INFORMATION OR CONTENT TRANSMITTED, RECEIVED OR STORED BY OR IN CONNECTION WITH THE SOFTWARE REGARDLESS OF THE CAUSE. ONCODE AND/OR UMCU’S TOTAL LIABILITY, WHETHER UNDER THE EXPRESS OR IMPLIED TERMS OF THIS AGREEMENT, IN TORT (INCLUDING NEGLIGENCE), OR AT COMMON LAW, FOR ANY LOSS OR DAMAGE SUFFERED BY YOU, WHETHER DIRECT, INDIRECT OR SPECIAL, OR ANY OTHER SIMILAR OR LIKE DAMAGE THAT MAY ARISE OR DOES ARISE FROM ANY BREACHES OF THIS AGREEMENT BY ONCODE, UMCU, THEIR BOARD OF GOVERNORS, OFFICERS, EMPLOYEES, FACULTY, STUDENTS, STAFF OR AGENTS, IS STRICTLY LIMITED TO FIVE EURO (€5.00). THE PARTIES ACKNOWLEDGE THAT THIS IS A THIRD PARTY CLAUSE (IN DUTCH ‘DERDENBEDING’) WHICH CAN BE INVOKED BY UMCU DIRECTLY AGAINST YOU.  
-
- 
-
-8) INDEMNIFICATION. YOU AGREE TO INDEMNIFY, DEFEND AND HOLD HARMLESS ONCODE, UMCU, THEIR BOARD OF GOVERNORS, OFFICERS, EMPLOYEES, FACULTY, STUDENTS, STAFF AND AGENTS FROM AND AGAINST ANY AND ALL LIABILITY, LOSS, DAMAGE, ACTION, CLAIM OR EXPENSE (INCLUDING ATTORNEY'S FEES AND COSTS AT TRIAL AND APPELLATE LEVELS) IN CONNECTION WITH ANY CLAIM, SUIT, ACTION, DEMAND OR JUDGMENT ARISING OUT OF, CONNECTED WITH, RESULTING FROM, OR SUSTAINED AS A RESULT OF YOUR USE OF THE SOFTWARE OR IN EXECUTING AND PERFORMING THIS AGREEMENT. THE PARTIES ACKNOWLEDGE THAT THIS IS A THIRD PARTY CLAUSE (IN DUTCH ‘DERDENBEDING’) WHICH CAN BE INVOKED BY UMCU DIRECTLY AGAINST YOU. 
-
- 
-
-9) Term. YOU agree this Agreement is effective for an unlimited period, unless terminated earlier.  
-
- 
-
-10) Termination. YOU may terminate this Agreement at any time by ceasing all use of the Software and destroying or deleting the Software (including the related documentation), together with all copies in any form. ONCODE and CYCLOMICS may terminate this Agreement immediately, and this Agreement shall be deemed to have automatically terminated, if YOU breach or fail to comply with any term or condition of this Agreement, or upon thirty (30) days’ notice. Upon any termination, including termination by YOU, YOU must destroy or return to ONCODE or CYCLOMICS the Software (including the related documentation or materials), together with all copies in any form, and YOU will have no further right to use the Software. Article 3 (Restrictions of Use), Article 6 (No Warranty), Article 7 (Limitation of Liability) and Article 8 (Indemnification) of this Agreement will however survive any termination of this Agreement.  
-
- 
-
-11) Governing Law. YOU agree this Agreement shall be governed by, interpreted and construed in accordance with, the laws of the Netherlands, without regard to any conflict of laws principles that would result in the application of laws of any other jurisdiction. YOU agree that by accepting the terms of this Agreement and using the Software YOU have attorned to the exclusive jurisdiction of the competent courts of The Netherlands. The Parties agree that the competent courts of The Netherlands have exclusive jurisdiction over this Agreement.  
-
- 
-
-12) Miscellaneous. No modification of this Agreement will be binding on the parties, unless in writing and signed by an authorized representative of each party.  
-
-Should any provision of this Agreement be declared invalid or unenforceable, then such provision shall be deemed severable from this Agreement and shall not affect the validity or enforceability of the remaining provisions hereof. All rights in the Software not specifically granted in this Agreement are reserved by UMCU.  
-
-YOU may not assign or transfer this Agreement (by merger, operation of law or in any other manner) without the prior written consent of ONCODE and CYCLOMICS and any attempt to do so without such consent shall be void, with no legal force and effect, and shall constitute a material breach of this Agreement by YOU.  
-
-YOU acknowledge that YOU have read this Agreement, understand it, and that by using the Software YOU agree to be bound by its terms and conditions. YOU further agree that it is the complete and exclusive statement of the agreement between ONCODE, CYCLOMICS and YOU, and supersedes any proposal or prior agreement, oral or written, and any other communication between ONCODE, CYCLOMICS and YOU relating to the subject matter of this Agreement.  
+EVALUATION SOFTWARE LICENSE AGREEMENT 
+IMPORTANT! 
+1) License to use the STURGEON Software. The software to allow bioinformatic sparse methylation analysis “STURGEON” (the “Software”) you seek to use is licensed only on the condition that you ("YOU") agree with Stichting Oncode Institute, with its office at Jaarbeursplein 6, 3521 AL Utrecht, NL (“ONCODE”) and Cyclomics B.V., with its office at Science Park 301, 1098XH Amsterdam, NL (“CYCLOMICS”), to the terms and conditions set forth below. PLEASE CAREFULLY READ THE TERMS OF THIS SOFTWARE LICENSE AGREEMENT (the “Agreement”). If you do not agree to the terms of this Agreement, delete and do not use the Software. 
+
+2) Permission for Use. 
+• Subject to the terms and conditions of this agreement, ONCODE and CYCLOMICS grants to YOU a non-exclusive, non-transferable, non-sublicensable right to use the Software solely for internal, non-commercial research and evaluation purposes.
+• The Software and any and all documentation, knowledge, know-how and/or techniques relating to the Software, is and will remain the sole and absolute property of University Medical Centre Utrecht, with its office at Heidelberglaan 100, 3584CX Utrecht, NL (“UMCU”). ONCODE specifically retains the right to grant licenses of the Software to third parties. CYCLOMICS has acquired an exclusive license to the Software and has the right to grant sublicenses. 
+
+3) Restrictions of Use. Subject to Article 4, YOU SHALL NOT and will NOT authorize any third party to: 
+• use the Software for clinical purposes, including patient care, clinical workflows, or healthcare delivery;
+• use the Software for diagnosis, treatment, monitoring, prevention, or mitigation of any disease or medical condition;
+• use the Software in connection with medical decision-making;
+• use the Software as a medical device or as part of a regulated medical device system;
+• use the Software for any commercial purpose, including providing services to third parties, commercialization, product development for commercial deployment, or incorporation into commercial products or services;
+• distribute, sell, re-sell, lease, transfer, loan, assign, trade, rent, publish or otherwise transfer the Software, or any part thereof and/or copies thereof, to others for consideration, financial or otherwise; 
+• improve, further develop, adapt, decompile, disassemble, translate into another computer language, create derivative works, use any part of the Software to mimic data or functionality in the Software, or otherwise reverse engineer the Software without the written permission of ONCODE and Cyclomics; 
+• alter or delete any of the copyright notices present on, or in the Software; 
+• license or sublicense the use of the Software to others without the written permission of ONCODE and CYCLOMICS; 
+• use, without its express permission, the name of ONCODE and/or UMCU and/or CYCLOMICS, or any trademark or logo of ONCODE and/or UMCU and/or CYCLOMICS in advertising, publicity, or otherwise; 
+• export or re-export the Software or any copy or adaptation, whether in violation of any applicable laws or regulations or otherwise; and 
+• Publish results obtained through YOUR use of the Software without express permission from ONCODE and CYCLOMICS, and without referral to the original source code of the Software. 
+
+4) The Software was developed by Dr. Jeroen de Ridder, Marc Pages and Carlo Vermeulen of the UMCU. The Software has the following dependencies, which are subject to their own open source licenses. Please review and agree to the appropriate open source license prior to using the Software:
+Code 	Link 	OS License
+NumPY 	https://numpy.org/ 	NumPy is licensed under the BSD License.
+Pandas 	https://github.com/pandas dev/pandas/blob/main/LICE NSE	Pandas is licensed under the BSD License.
+Matplotlib 	https://github.com/matplot lib/matplotlib/blob/main/LI CENSE/LICENSE	Matplotlib is licensed under the BSD License.
+PyTorch 	https://github.com/pytorch /pytorch/blob/master/LICE NSE	PyTorch is licensed under the BSD License.
+SciPy 	https://www.scipy.org/ 	SciPy is licensed under the BSD License.
+Onnx 	https://github.com/onnx/o nnx/blob/main/LICENSE	Onnx is licensed under the Apache 2.0 License.
+Scikit-learn 	https://github.com/scikit learn/scikit 
+learn/blob/main/COPYING	Scikit-learn is licensed under the BSD License.
+Python 	https://www.python.org/do wnload/releases/3.4.0/licen se/	Python is licensed under the Python software foundation license.
+
+
+ONCODE is the exclusive valorization partner for intellectual property and knowhow developed by the lab of Dr. Jeroen de Ridder and which is owned by UMCU. If YOU are interested in using the Software for any commercial, clinical and/or diagnostic purposes, please contact  CYCLOMICS at software@cyclomics.com. 
+
+5) Representation of Authority. YOU explicitly represent and warrant to ONCODE and CYCLOMICS that YOU possess the legal authority to enter into this Agreement, and that YOU will be financially responsible for your use of the Software. You agree to be responsible for all license fees, costs, charges and taxes arising out of your use of the Software. YOU also acknowledge that YOU are solely responsible for supplying any hardware necessary to use the Software pursuant to this Agreement. 
+
+6) No Warranty. YOU further acknowledge and agree that the Software is experimental in nature and is provided to YOU on an “as is” basis and for academic research purposes only. ONCODE, CYCLOMICS and/or UMCU have no obligation to provide any services, modifications, upgrades, updates, or replacements relating to the Software. YOU acknowledge and agree that ONCODE, CYCLOMICS and/or UMCU make no representations and extend no warranties of any kind, either express or implied. 
+There are no express or implied warranties of merchantability or fitness of the Software for a particular purpose, or that the use of the Software will not infringe any patent, copyright, 
+trademark or other rights, or any other express or implied representations or warranties. In particular, nothing in this Agreement is or will be construed as a warranty or representation by Oncode and/or UMCU as to the validity or scope of copyright or other intellectual property rights in the Software; an obligation to furnish any other software, technology, or technological information; an obligation on ONCODE, CYCLOMICS and/or UMCU to correct malfunctions that arise in the version of the Software that YOU receive. ONCODE, CYCLOMICS AND UMCU DO NOT WARRANT THAT THE SOFTWARE IS FREE FROM MALFUNCTIONS, NOR THAT ANY MALFUNCTIONS CAN OR WILL BE CORRECTED OR THAT ONCODE, CYCLOMICS AND/OR UMCU WILL DEVELOP OR PROVIDE TO YOU ANY OPERATIONS, CAPABILITIES OR FEATURES NOT PRESENT IN THE VERSION OF THE SOFTWARE THAT YOU RECEIVE. THE PARTIES ACKNOWLEDGE THAT THIS IS A THIRD PARTY CLAUSE (IN DUTCH ‘DERDENBEDING’) WHICH CAN BE INVOKED BY UMCU DIRECTLY AGAINST YOU. 
+
+7) LIMITATION OF LIABILITY. YOU AGREE THAT IN NO EVENT SHALL ONCODE AND/OR UMCU BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, CONSEQUENTIAL, INCIDENTAL, PUNITIVE OR SPECIAL DAMAGES WHATSOEVER, WITHOUT REGARD TO CAUSE OR THEORY OF LIABILITY, OR ANY DAMAGES (WHETHER DIRECT OR INDIRECT) INCURRED FOR LOSS OF BUSINESS, PROFITS OR REVENUE, LOSS OF PRIVACY, LOSS OF USE OF ANY DEVICE OR SOFTWARE (INCLUDING BUT NOT LIMITED TO, THE SOFTWARE), COSTS OF PROCURING SUBSTITUTE OR REPLACEMENT GOODS AND SERVICES, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION OR OTHER PECUNIARY LOSS ARISING OUT OF THIS AGREEMENT OR THE SOFTWARE PROVIDED HEREUNDER, EVEN IF ONCODE AND/OR UMCU HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. NO MEMBER OF ONCODE, UMCU, THEIR BOARD OF GOVERNORS, OFFICERS, EMPLOYEES, FACULTY, STUDENTS, STAFF OR AGENTS WILL BE LIABLE FOR ANY UNAUTHORIZED ACCESS TO, OR ANY CORRUPTION, ERASURE, THEFT, DESTRUCTION, ALTERATION, INADVERTENT DISCLOSURE OR LOSS OF DATA, INFORMATION OR CONTENT TRANSMITTED, RECEIVED OR STORED BY OR IN CONNECTION WITH THE SOFTWARE REGARDLESS OF THE CAUSE. ONCODE AND/OR UMCU’S TOTAL LIABILITY, WHETHER UNDER THE EXPRESS OR IMPLIED TERMS OF THIS AGREEMENT, IN TORT (INCLUDING NEGLIGENCE), OR AT COMMON LAW, FOR ANY LOSS OR DAMAGE SUFFERED BY YOU, WHETHER DIRECT, INDIRECT OR SPECIAL, OR ANY OTHER SIMILAR OR LIKE DAMAGE THAT MAY ARISE OR DOES ARISE FROM ANY BREACHES OF THIS AGREEMENT BY ONCODE, UMCU, THEIR BOARD OF GOVERNORS, OFFICERS, EMPLOYEES, FACULTY, STUDENTS, STAFF OR AGENTS, IS STRICTLY LIMITED TO FIVE EURO (€5.00). THE PARTIES ACKNOWLEDGE THAT THIS IS A THIRD PARTY CLAUSE (IN DUTCH ‘DERDENBEDING’) WHICH CAN BE INVOKED BY UMCU DIRECTLY AGAINST YOU. 
+
+8) INDEMNIFICATION. YOU AGREE TO INDEMNIFY, DEFEND AND HOLD HARMLESS ONCODE, UMCU, THEIR BOARD OF GOVERNORS, OFFICERS, EMPLOYEES, FACULTY, STUDENTS, STAFF AND AGENTS FROM AND AGAINST ANY AND ALL LIABILITY, LOSS, DAMAGE, ACTION, CLAIM OR EXPENSE (INCLUDING ATTORNEY'S FEES AND COSTS AT TRIAL AND APPELLATE LEVELS) IN CONNECTION WITH ANY CLAIM, SUIT, ACTION, DEMAND OR JUDGMENT ARISING OUT OF, CONNECTED WITH, RESULTING FROM, OR SUSTAINED AS A RESULT OF YOUR USE OF THE SOFTWARE OR IN EXECUTING AND PERFORMING THIS AGREEMENT. THE PARTIES ACKNOWLEDGE THAT THIS IS A THIRD PARTY CLAUSE (IN DUTCH ‘DERDENBEDING’) WHICH CAN BE INVOKED BY UMCU DIRECTLY AGAINST YOU.
+
+9) Term. YOU agree this Agreement is effective for an unlimited period, unless terminated earlier. 
+
+10) Termination. YOU may terminate this Agreement at any time by ceasing all use of the Software and destroying or deleting the Software (including the related documentation), together with all copies in any form. ONCODE and CYCLOMICS may terminate this Agreement immediately, and this Agreement shall be deemed to have automatically terminated, if YOU breach or fail to comply with any term or condition of this Agreement, or upon thirty (30) days’ notice. Upon any termination, including termination by YOU, YOU must destroy or return to ONCODE or CYCLOMICS the Software (including the related documentation or materials), together with all copies in any form, and YOU will have no further right to use the Software. Article 3 (Restrictions of Use), Article 6 (No Warranty), Article 7 (Limitation of Liability) and Article 8 (Indemnification) of this Agreement will however survive any termination of this Agreement. 
+
+11) Governing Law. YOU agree this Agreement shall be governed by, interpreted and construed in accordance with, the laws of the Netherlands, without regard to any conflict of laws principles that would result in the application of laws of any other jurisdiction. YOU agree that by accepting the terms of this Agreement and using the Software YOU have attorned to the exclusive jurisdiction of the competent courts of The Netherlands. The Parties agree that the competent courts of The Netherlands have exclusive jurisdiction over this Agreement. 
+
+12) Miscellaneous. No modification of this Agreement will be binding on the parties, unless in writing and signed by an authorized representative of each party. 
+Should any provision of this Agreement be declared invalid or unenforceable, then such provision shall be deemed severable from this Agreement and shall not affect the validity or enforceability of the remaining provisions hereof. All rights in the Software not specifically granted in this Agreement are reserved by UMCU. 
+YOU may not assign or transfer this Agreement (by merger, operation of law or in any other manner) without the prior written consent of ONCODE and CYCLOMICS and any attempt to do so without such consent shall be void, with no legal force and effect, and shall constitute a material breach of this Agreement by YOU. 
+YOU acknowledge that YOU have read this Agreement, understand it, and that by using the Software YOU agree to be bound by its terms and conditions. YOU further agree that it is the complete and exclusive statement of the agreement between ONCODE, CYCLOMICS and YOU, and supersedes any proposal or prior agreement, oral or written, and any other communication between ONCODE, CYCLOMICS and YOU relating to the subject matter of this Agreement. 
